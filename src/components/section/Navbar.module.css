@@ -15,5 +15,15 @@
 }
 
 .navbar a{
-    color:aliceblue !important;
+    color:aliceblue;
+}
+
+.navbar .whatsapp a:hover {
+    color:#74FAC0;
+}
+.navbar .git a:hover {
+    color:rgb(167, 84, 167);
+}
+.navbar .linkdin a:hover {
+    color:rgb(32, 178, 245);
 }
