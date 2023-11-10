@@ -1,0 +1,21 @@
+.skill{
+    background: rgba(1, 9, 28, 0.75);
+    border-radius: 10px;
+    margin: 50px;
+    padding: 25px;
+    filter: drop-shadow(0x 4px 4px rgba(0,00, 0.25, 0.25));
+}
+
+.skill img{
+    height: 140px;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.skill h1{
+    font-size: 45px;
+}
+
+.skill p{
+    font-size: 25px;
+}
