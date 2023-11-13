@@ -10,12 +10,35 @@
     height: 140px;
     border-radius: 10px;
     margin: 25px;
-}
-
-.skill h1{
-    font-size: 45px;
+    border: solid 1px transparent;
 }
 
 .skill p{
     font-size: 25px;
+}
+
+.skill .white:hover{
+    transition-duration: 400ms;
+    border: solid 1px black;
+    box-shadow: 0px 0px 10px 5px white;
+}
+.skill .yellow:hover{
+    transition-duration: 400ms;
+    border: solid 1px black;
+    box-shadow: 0px 0px 10px 5px #E9CA32;
+}
+.skill .orange:hover{
+    transition-duration: 400ms;
+    border: solid 1px black;
+    box-shadow: 0px 0px 10px 5px #E54D26;
+}
+.skill .blue:hover{
+    transition-duration: 400ms;
+    border: solid 1px black;
+    box-shadow: 0px 0px 10px 5px #2684C4;
+}
+.skill .gray:hover{
+    transition-duration: 400ms;
+    border: solid 1px black;
+    box-shadow: 0px 0px 10px 5px #292C35;
 }

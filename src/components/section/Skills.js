@@ -1,4 +1,3 @@
-
 import styles from  './Skills.module.css'
 import javascriptImg from '../../image/skills/javascript.png'
 import htmlImg from '../../image/skills/html.png'
@@ -14,12 +13,12 @@ function Skills(){
         <h1> Habilidades</h1>
         <p>Conheça um pouco das minhas principais habilidades e conhecimentos </p>
         <div>
-          <img src={inkscapeImg} />
-          <img src={javascriptImg} />
-          <img src={htmlImg} />
-          <img src={cssImg} />
-          <img src={reactImg} />
-          <img src={powerbiImg} />
+          <img src={inkscapeImg} className={styles.white} alt="Inkscape" />
+          <img src={javascriptImg} className={styles.yellow} alt="JavaScript" />
+          <img src={htmlImg} className={styles.orange} alt="HTML"/>
+          <img src={cssImg} className={styles.blue} alt="CSS" />
+          <img src={reactImg} className={styles.gray} alt="React" />
+          <img src={powerbiImg} className={styles.white} alt="Power-BI" />
         </div>
       </div>  
     )
