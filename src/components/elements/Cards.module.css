@@ -1,0 +1,32 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;    
+    filter: drop-shadow(0px 10px 10px rgba(0,00, 0.25, 0.25));
+}
+
+.cards img{
+    width: 350px;
+    height: 175px;
+    border-radius: 25px;
+    border: solid 2px black;
+    margin: 10px;
+}
+
+.cards img:hover{
+    transition-duration: 400ms;
+    box-shadow: 0px 0px 25px 15px #363942;
+}
+
+.cards section{
+    background: rgba(1, 9, 28, 0.75);
+    padding: 20px;
+    border-radius: 30px;
+    width: 450px;
+    margin: 10px;
+}
+
+.cards h3{
+    font-size: 25px;
+}
