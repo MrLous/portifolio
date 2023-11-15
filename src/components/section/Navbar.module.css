@@ -27,3 +27,13 @@
 .navbar .linkdin a:hover {
     color:rgb(32, 178, 245);
 }
+
+@media screen and (max-width: 500px){
+    .navbar{
+        padding: 0,5em;
+    }
+    
+    .navbar li{
+        margin: 2%;
+    } 
+}
