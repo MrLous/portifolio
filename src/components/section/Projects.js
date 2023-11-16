@@ -2,7 +2,7 @@ import styles from '../section/Projects.module.css'
 import Cards from '../elements/Cards'
 import crud from '../../image/projects/CRUF.PNG'
 import dnc from '../../image/projects/DNC.PNG'
-import danplas from '../../image/projects/danplas.PNG'
+import detona from '../../image/projects/detona.PNG'
 
 function Projects(){
     return(
@@ -17,11 +17,11 @@ function Projects(){
         site = 'https://projetolearningdnc.netlify.app/'
         />
         <Cards
-        img={danplas}
-        title = "Terminal de Retirada de Itens"
+        img={detona}
+        title = "detona ralph"
         tech = "HTML, JS, CSS e iks"
-        descripion = "Ferramenta desenvolvida para automatizar a Saida de Materiais do almoxarifado."
-        repo = 'https://github.com/MrLous/terminal'
+        descripion = "Game para aliviar do stres do dia a dia."
+        repo = 'https://github.com/MrLous/detona-ralph'
         site = "https://sprightly-bienenstitch-4aaaf2.netlify.app"
         />
         
