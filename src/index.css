@@ -6,6 +6,9 @@ body {
   background-image: url(./image/background.svg);
   background-size: cover;
   color: aliceblue;
+  text-align: center;
+  justify-content: center;
+  
 }
 
 code {
