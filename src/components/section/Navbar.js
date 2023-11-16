@@ -11,7 +11,7 @@ function Navbar(){
             <li><Nav.Link href='#Projects'>Projetos</Nav.Link></li>
         </ul>
         <ul>
-            <li className={styles.whatsapp}><a href='https://wa.me//551692925034' target='_blank'><FaWhatsapp size={30} /></a></li>
+            <li className={styles.whatsapp}><a href='https://wa.me//5516992925034' target='_blank'><FaWhatsapp size={30} /></a></li>
             <li className={styles.git}><a href='https://github.com/MrLous' target='_blank'><FaGithub size={30}/></a></li>
             <li className={styles.linkdin}><a href='https://www.linkedin.com/in/ricardoluizjr/' target='_blank'><FaLinkedin size={30}/></a></li>
         </ul>
