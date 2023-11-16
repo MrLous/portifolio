@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 500px){
     .navbar{
-        padding: 0,5em;
+        padding: 0.1em;
     }
     
     .navbar li{

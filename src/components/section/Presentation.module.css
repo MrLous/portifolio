@@ -27,3 +27,16 @@
         margin-left: 50%;
     }
 }
+
+@media screen and (max-width: 1000px){
+    .presentation{
+        max-width: 75%;
+    }
+    
+    .presentation h4{
+        font-size: 15px;
+    }
+    .presentation h6{
+        margin-left: 50%;
+    }
+}

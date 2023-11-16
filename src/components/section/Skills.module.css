@@ -1,9 +1,10 @@
 .skill{
     background: rgba(1, 9, 28, 0.75);
     border-radius: 10px;
-    margin: 50px;
     padding: 25px;
     filter: drop-shadow(0px 4px 4px rgba(0,00, 0.25, 0.25));
+    width: 90%;
+    align-items: center;
 }
 
 .skill img{
@@ -44,7 +45,31 @@
     box-shadow: 0px 0px 10px 5px #292C35;
 }
 
-@media screen and (max-width: 500px){
-
-
+@media screen and (max-width: 700px){
+    .skill{
+        background: rgba(1, 9, 28, 0.75);
+        border-radius: 10px;
+        margin: 10%;
+        padding: 5%;
+        filter: drop-shadow(0px 4px 4px rgba(0,00, 0.25, 0.25));
     }
+    
+    .skill .tech{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .skill img{
+        height: 50px;
+        border-radius: 10px;
+        margin: 8px;
+    }
+    
+    .skill p{
+        font-size: 15px;
+    }
+
+}

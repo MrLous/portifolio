@@ -12,7 +12,7 @@ function Skills(){
       <div className={styles.skill} id='Skill'>
         <h1> Habilidades</h1>
         <p>Conheça um pouco das minhas principais habilidades e conhecimentos </p>
-        <div>
+        <div className={styles.tech}>
           <img src={inkscapeImg} className={styles.white} alt="Inkscape" />
           <img src={javascriptImg} className={styles.yellow} alt="JavaScript" />
           <img src={htmlImg} className={styles.orange} alt="HTML"/>
