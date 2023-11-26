@@ -5,28 +5,33 @@ import crud from '../../image/projects/CRUF.PNG'
 import dnc from '../../image/projects/DNC.PNG'
 import detona from '../../image/projects/detona.PNG'
 import memory from '../../image/projects/memory.png'
-import ButtonTransparentBig from '../elements/ButtonTransparentBig'
-
+import ButtonBig from '../elements/ButtonBig'
 
 
 function Projects(){
   
   
   const [viewCard, setViewCard] = useState("Projetos");
+  const [styleProject, setStyleProject] = useState("click");
+  const [styleGame, setStyleGame] = useState("");
 
   // atualizar os cards de projeto
   function viewProject (){
     setViewCard("Projetos");
+    setStyleProject("click");
+    setStyleGame("");
   }
   function viewGame (){
     setViewCard("Games");
+    setStyleProject("");
+    setStyleGame("click")
   }
 
     return(
       <div id='Projects' className={styles.projects}>
-        <div className={styles.selectProjectOrGame}>
-          <ButtonTransparentBig text="Projetos" functionClick={viewProject}/>
-          <ButtonTransparentBig text="Games" functionClick={viewGame}/>
+        <div className={styles.selectCards}>
+          <ButtonBig text="Projetos" functionClick={viewProject} style={styleProject} id="btnProjetos"/>
+          <ButtonBig text="Games" functionClick={viewGame} style={styleGame} id="btnGames"/>
         </div>
         { viewCard ==  "Projetos" &&
         ( <>

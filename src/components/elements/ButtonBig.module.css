@@ -1,0 +1,31 @@
+.btnBig{
+    width: 170px;
+    font-size: 30px;
+    background: transparent;
+    color: #f0f8ff;
+    border: #f0f8ff solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.btnBigClick{
+    width: 170px;
+    font-size: 30px;    
+    font-weight: bolder;
+    background: transparent;    
+    background-color: #74FAC0;
+    border: #aafdd9 solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.btnBig:hover{
+    color:  #010B28;
+    background-color: #f0f8ff;
+    transition-duration: 0.3s;
+    border: #010B28 solid 1px;
+}
