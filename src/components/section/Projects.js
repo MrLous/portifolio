@@ -72,7 +72,7 @@ function Projects(){
           tech = "HTML, JS, CSS e iks"
           descripion = "Game para Testa sua memoria, tier um print e compartilhe seu melhro tempo"
           repo = 'https://github.com/MrLous/memory-game'
-          site = "https://lovely-mooncake-7cc107.netlify.app"
+          site = "https://memory-card-dio.netlify.app"
           />
            <Cards
           img = {detona}
