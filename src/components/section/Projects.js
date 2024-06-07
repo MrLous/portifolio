@@ -7,6 +7,7 @@ import detona from '../../image/projects/detona.PNG'
 import piano from '../../image/projects/PIANO.PNG'
 import memory from '../../image/projects/memory.png'
 import ButtonBig from '../elements/ButtonBig'
+import terminal from '../../image/projects/terminal.png'
 
 
 function Projects(){
@@ -51,6 +52,14 @@ function Projects(){
           descripion = "Gerenciador de tarefas simples com controle de status e dinamico"
           repo = 'https://github.com/MrLous/crud-task'
           site = " "
+          />
+          <Cards
+          img = {terminal}
+          title = "Terminal de Retirada"
+          tech = "JS, HTML, CSS e iks"
+          descripion = "Terminal de Retirada para movimentação de peças do almoxarifado"
+          repo = 'https://github.com/MrLous/Terminal_Simples-sheetMonkey'
+          site = "https://terminal-danplas.netlify.app/"
           />
           </>
          )
