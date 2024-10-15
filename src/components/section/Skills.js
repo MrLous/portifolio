@@ -5,6 +5,7 @@ import cssImg from '../../image/skills/css.png'
 import reactImg from '../../image/skills/react.png'
 import powerbiImg from '../../image/skills/power-bi.png'
 import inkscapeImg from '../../image/skills/inkscape.png'
+import inkscapeImg from '../../image/skills/net.png'
 
 
 function Skills(){
@@ -19,6 +20,7 @@ function Skills(){
           <img src={cssImg} className={styles.blue} alt="CSS" />
           <img src={reactImg} className={styles.gray} alt="React" />
           <img src={powerbiImg} className={styles.white} alt="Power-BI" />
+          <img src={netImg} className={styles.purple} alt=".Net" />
         </div>
       </div>  
     )
