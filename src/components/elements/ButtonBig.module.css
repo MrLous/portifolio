@@ -1,5 +1,5 @@
 .btnBig{
-    width: 170px;
+    width: 200px;
     font-size: 30px;
     background: transparent;
     color: #f0f8ff;
@@ -12,7 +12,7 @@
 }
 
 .btnBigClick{
-    width: 170px;
+    width: 200px;
     font-size: 30px;    
     font-weight: bolder;
     background: transparent;    
