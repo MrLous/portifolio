@@ -12,7 +12,7 @@ function Skills(){
     return(
       <div className={styles.skill} id='Skill'>
         <h1> Habilidades</h1>
-        <p>Conheça um pouco das minhas principais habilidades e conhecimentos </p>
+        <p>Conheça algumas das minhas habilidades e conhecimentos </p>
         <div className={styles.tech}>
           <img src={powerbiImg} className={styles.white} alt="Power-BI" />
           <img src={javascriptImg} className={styles.yellow} alt="JavaScript" />

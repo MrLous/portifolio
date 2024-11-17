@@ -27,6 +27,9 @@
 .navbar .linkdin a:hover {
     color:rgb(32, 178, 245);
 }
+.navbar .pdf a:hover {
+    color:rgb(177, 42, 24);
+}
 
 @media screen and (max-width: 500px){
     .navbar{

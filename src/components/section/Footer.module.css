@@ -27,6 +27,9 @@
 .footer .linkdin a:hover {
     color:rgb(32, 178, 245);
 }
+.footer .pdf a:hover {
+    color:rgb(177, 42, 24);
+}
 
 
 @media screen and (max-width: 600px){
