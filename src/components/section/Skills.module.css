@@ -52,8 +52,10 @@
     box-shadow: 0px 0px 10px 5px #923db4;
 }
 
-@media screen and (max-width: 700px){
-
+@media screen and (max-width: 900px){
+    .skill{
+        margin: 1%;
+    }
     .skill img{
         height: 50px;
         border-radius: 10px;

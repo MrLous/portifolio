@@ -10,7 +10,7 @@ function Navbar(){
             <li><Nav.Link href='#Skill'>Habilidades</Nav.Link></li>
             <li><Nav.Link href='#Projects'>Projetos</Nav.Link></li>
         </ul>
-        <Contact/>
+        <div className={styles.contact}><Contact /></div>
       </div>  
     )
 }
