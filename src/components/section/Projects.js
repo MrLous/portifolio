@@ -20,7 +20,7 @@ import powerBi from '../../image/certificates/power-bi.png'
 import graduacaoIOT from '../../pdf/CERTIFICADO BTIIC.pdf'
 import Logounivesp from '../../image/Univesp.png'
 
-var textButtonsCard = "";
+var textButtonsCard = "Acesse meu repositório";
 
 function Projects(){
   

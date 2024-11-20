@@ -1,34 +1,14 @@
 .footer{
     display: flex;
+    flex-direction: column;
     justify-content: center;    
 }
 
-.footer ul{
-    display: flex;
-    list-style: none;
-    align-items: center;
-}
-
 .footer a{  
-    margin: 10px;
     color:aliceblue;
 }
-
 .footer p{
-    margin: 25px;
-}
-
-.footer .whatsapp a:hover {
-    color:#74FAC0;
-}
-.footer .git a:hover {
-    color:rgb(167, 84, 167);
-}
-.footer .linkdin a:hover {
-    color:rgb(32, 178, 245);
-}
-.footer .pdf a:hover {
-    color:rgb(177, 42, 24);
+    margin: 2px;
 }
 
 
@@ -44,7 +24,6 @@
     }
 
     .footer p{
-        
         align-items: left; 
         margin: 5px;
     }

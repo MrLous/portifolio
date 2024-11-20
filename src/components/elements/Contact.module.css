@@ -1,0 +1,38 @@
+.contact{
+    display: flex;
+    justify-content: center;   
+}
+
+.contact ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-inline-start: 0;
+}
+
+.contact a{  
+    margin: 5px;
+    color:aliceblue;
+}
+
+.contact .whatsapp a:hover {
+    color:#74FAC0;
+}
+.contact .git a:hover {
+    color:rgb(167, 84, 167);
+}
+.contact .linkdin a:hover {
+    color:rgb(32, 178, 245);
+}
+.contact .pdf a:hover {
+    color:rgb(177, 42, 24);
+}
+
+
+@media screen and (max-width: 600px){
+    .contact{
+        flex-direction: column;
+        align-items: center; 
+        color:rgb(240, 248, 255);  
+    }
+}
