@@ -12,7 +12,7 @@ function Presentation(){
         como um todo, entregando assim, um resultado assertivo.<br/><br/>
         Estou em constante melhoria teórica nas áreas de análises de dados e<br/>
         Desenvolvimento de sistemas, busco uma oportunidade para a prática dos resultados.</p>
-        <ButtonA text='Conecte-se comigo!' link='https://wa.me//551692925034'  target='_blank'/>
+        <ButtonA text='Conecte-se comigo!' link='https://wa.me//551692925034' title='whatsApp'  target='_blank'/>
       </div> 
     )
 }

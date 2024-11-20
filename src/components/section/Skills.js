@@ -14,13 +14,13 @@ function Skills(){
         <h1> Habilidades</h1>
         <p>Conheça algumas das minhas habilidades e conhecimentos </p>
         <div className={styles.tech}>
-          <img src={powerbiImg} className={styles.white} alt="Power-BI" />
-          <img src={javascriptImg} className={styles.yellow} alt="JavaScript" />
-          <img src={htmlImg} className={styles.orange} alt="HTML"/>
-          <img src={cssImg} className={styles.blue} alt="CSS" />
-          <img src={reactImg} className={styles.gray} alt="React" />
-          <img src={netImg} className={styles.purple} alt=".Net" />
-          <img src={inkscapeImg} className={styles.white} alt="Inkscape" />
+          <img src={powerbiImg} className={styles.white} alt="Power-BI" title='Power-Bi'/>
+          <img src={javascriptImg} className={styles.yellow} alt="JavaScript" title='JavaScripit' />
+          <img src={htmlImg} className={styles.orange} alt="HTML" title='HTML-5'/>
+          <img src={cssImg} className={styles.blue} alt="CSS" title='CSS3' />
+          <img src={reactImg} className={styles.gray} alt="React" title='React.js' />
+          <img src={netImg} className={styles.purple} alt=".Net" title='.Net' />
+          <img src={inkscapeImg} className={styles.white} alt="Inkscape" title='Inkscape'/>
         </div>
       </div>  
     )
