@@ -79,7 +79,7 @@ const db = [
         "tech": [iconHTML, iconCSS, iconJavaScripit,iconFigma, iconReact],
         "descripion": "Curso Oferecido pela escola DNC, com 40h, concluido DEZ/2023.",
         "repo": "https://ed.escoladnc.com/formacoes-g/?utm_source=adwords&utm_medium=paid&utm_campaign=hr-ga-geral-312-1&utm_content=hr-ga-geral-312-1-1&utm_term=dnc&utm_term=dnc&utm_campaign=%5B312%5D%5BOP%5D%5BHR%5D%5BGeral%5D%5BSearch%5D&utm_source=adwords&utm_medium=ppc&hsa_acc=1620955800&hsa_cam=21542018591&hsa_grp=165520193733&hsa_ad=708070867381&hsa_src=g&hsa_tgt=kwd-13228606&hsa_kw=dnc&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwpbi4BhByEiwAMC8JnaiD7UCZ5hkR3JIZNTEGqbqESuXYBWI0-u-9_vwGGrvjVihKQkzRqhoCSEUQAvD_BwE",
-        "site": "",
+        "site": front,
         "class": "Cursos",
         "image": front
     },{ 
@@ -87,7 +87,7 @@ const db = [
         "tech": [iconHTML, iconCSS, iconJavaScripit, iconInkscap,iconGodot],
         "descripion": "Curso Oferecido pela escola DIO, com 77h, concluido DEZ/2023.",
         "repo": "https://www.dio.me/",
-        "site": "",
+        "site": devgames,
         "class": "Cursos",
         "image": devgames
     },{ 
@@ -95,7 +95,7 @@ const db = [
         "tech": [iconSQL, iconR, iconTableu],
         "descripion": "Curso Oferecido pela escola Coursera/Google, com 120h, concluido MAR/2023.",
         "repo": "https://www.coursera.org/courseraplus/?utm_medium=sem&utm_source=gg&utm_campaign=B2C_LATAM_coursera_FTCOF_courseraplus&campaignid=20844412474&adgroupid=159999536361&device=c&keyword=coursera&matchtype=b&network=g&devicemodel=&adposition=&creativeid=683667892738&hide_mobile_promo&gad_source=1&gclid=CjwKCAjwpbi4BhByEiwAMC8JndRXMNurKZ5rzi6_MuY-QhXaQG6Rpofo18cfEa0Qhuj1f6fWjWGfChoCYm4QAvD_BwE",
-        "site": "",
+        "site": dataAny,
         "class": "Cursos",
         "image": dataAny
     },{ 
@@ -103,7 +103,7 @@ const db = [
         "tech": [iconSQL, iconR, iconPython, iconPowerBi],
         "descripion": "Curso Oferecido pela escola Dio, com 82h, concluido SET/2024.",
         "repo": "https://www.dio.me/",
-        "site": "",
+        "site": powerBi,
         "class": "Cursos",
         "image": powerBi
     },{ 

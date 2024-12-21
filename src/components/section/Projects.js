@@ -6,7 +6,7 @@ import styles from '../section/Projects.module.css'
 import Works from '../projects/works'
 import ButtonBig from '../elements/ButtonBig'
 
-var textButtonsCard = "Acesse meu repositório";
+let textButtonsCard = "Acesse meu repositório";
 const btnIconSize = 30;
 
 function Projects(){
@@ -58,8 +58,6 @@ function Projects(){
     setStyleGraduacao("click");
     textButtonsCard = "Conheça a Faculdade";
   }
-
-  //retornar cards
 
   return(
     <div id='Projects' className={styles.projects}>

@@ -1,0 +1,13 @@
+.btnCarrossel{
+    color: aliceblue;
+    background:transparent;
+    cursor: pointer;
+}
+.divBtnCarrossel{
+    background: transparent;
+}
+
+.btnCarrossel:hover{  
+    color: #501169;
+    transition-duration: 0.4s;
+}

@@ -15,7 +15,7 @@
     margin-left: 65%;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 900px){
     .presentation{
         max-width: 90%;
     }
@@ -28,7 +28,7 @@
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1100px){
     .presentation{
         max-width: 75%;
     }

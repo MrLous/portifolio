@@ -1,0 +1,15 @@
+.carrossel{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.carrosselView{
+    display: flex;
+}
+
+.carrosselNotView{
+    display: none;
+}
