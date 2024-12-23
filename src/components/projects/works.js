@@ -7,46 +7,40 @@ import ButtonCarrossel from '../elements/ButtonCarrossel';
 import workJson from '../projects/db'
 
 let cardOnView = 0;
-let workchange = " ";
-
-function setListView (projectsCard){
-    if (workchange === projectsCard){
-        cardOnView = 0;
-        workchange = projectsCard;
-    }
-}
 
 
 function Works( {projectsCard, textButtons}){
-    // varial que carregar os cartoes
-    let listCard = [];
-
-    //setar os cartoes
-    setListView(projectsCard);
 
     const [viewCard, setViewCard] = useState(0);
 
+    // varial que carregar os cartoes
+    let listCard = []; 
+    let listRadioButtons= [];
+
     //funções de troca de cartão.
-    function direita(){
-       console.log(listCard, viewCard)
+    function esquerda(){
         if((cardOnView+1) >= listCard.length){
             cardOnView = 0;
         }else{
             cardOnView++;
         }
         setViewCard(cardOnView);
+        console.log("set",viewCard,", var",cardOnView, ", pro",projectsCard);
     }
-    function esquerda(){
+
+    function direita(){
         if(cardOnView <= 0){
             cardOnView = listCard.length-1;
         }else{
             cardOnView--;
         }
         setViewCard(cardOnView);
+        console.log("set",viewCard,", var",cardOnView, ", pro",projectsCard);
     }
 
+
     // add lista de cartões no grupo especifico
-    workJson.forEach(classes => {
+    workJson.forEach((classes, index) => {
         if(classes.class === projectsCard){
             listCard.push(
                 listCard.length === viewCard ? (
@@ -74,18 +68,32 @@ function Works( {projectsCard, textButtons}){
                         />
                     </div> 
                 )
-            )}
-        })
+            )
+            listRadioButtons.push(
+                (listCard.length-1) === viewCard ? (
+                    <div className={styles.divRadioOn} >
+                        <span class={styles.spanRaio}>{listCard.length}</span>
+                    </div>
+                ):(
+                    <div className={styles.divRadioOff} >
+                    <span class={styles.spanRaio}>{listCard.length}</span>
+                </div>  
+                )
+            )
+        }
+    })
 
     return(
-
-        <>  
+        <div className={styles.works}>
             <div className={styles.carrossel}>
                 <ButtonCarrossel direction='Direita' functionClick={direita}/>
                 {listCard}
                 <ButtonCarrossel direction='Esquerda' functionClick={esquerda}/>
             </div>
-        </>
+            <div className={styles.radios}>
+                {listRadioButtons}
+            </div> 
+        </div>
     )
 }
 

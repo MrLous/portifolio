@@ -1,6 +1,6 @@
 import {useState} from 'react'
 // https://react-icons.github.io/react-icons/
-import {  FaUserGraduate, FaGamepad, FaFileAlt} from "react-icons/fa";
+import { FaUserGraduate, FaGamepad, FaFileAlt} from "react-icons/fa";
 import { IoIosConstruct } from "react-icons/io";
 import styles from '../section/Projects.module.css'
 import Works from '../projects/works'
@@ -33,7 +33,7 @@ function Projects(){
     setStyleCursos("");
     setStyleGraduacao("");
     textButtonsCard = "Acesse meu repositório";
-  }
+    }
   function viewGame (){
     setViewCard("Games");
     setStyleProject("");
