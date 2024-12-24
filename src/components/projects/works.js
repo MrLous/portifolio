@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useEffect, useState} from 'react'
 import Cards from '../elements/Cards'
 import styles from './works.module.css'
 import ButtonCarrossel from '../elements/ButtonCarrossel';
@@ -8,14 +8,19 @@ import workJson from '../projects/db'
 
 let cardOnView = 0;
 
-
-function Works( {projectsCard, textButtons}){
+function Works( {projectsCard, textButtons, resetCard} ){
 
     const [viewCard, setViewCard] = useState(0);
 
     // varial que carregar os cartoes
     let listCard = []; 
     let listRadioButtons= [];
+
+    function updateCarousel() {
+        // Calcula a transformação com base no índice
+        const offset = -cardOnView * 100; 
+        styles.carrossel.transform = `translateX(${offset}%)`;
+    }
 
     //funções de troca de cartão.
     function esquerda(){
@@ -25,7 +30,6 @@ function Works( {projectsCard, textButtons}){
             cardOnView++;
         }
         setViewCard(cardOnView);
-        console.log("set",viewCard,", var",cardOnView, ", pro",projectsCard);
     }
 
     function direita(){
@@ -35,9 +39,12 @@ function Works( {projectsCard, textButtons}){
             cardOnView--;
         }
         setViewCard(cardOnView);
-        console.log("set",viewCard,", var",cardOnView, ", pro",projectsCard);
     }
 
+    useEffect(() => {
+        setViewCard(0);
+        cardOnView = 0; 
+    }, [resetCard]); 
 
     // add lista de cartões no grupo especifico
     workJson.forEach((classes, index) => {
@@ -72,12 +79,12 @@ function Works( {projectsCard, textButtons}){
             listRadioButtons.push(
                 (listCard.length-1) === viewCard ? (
                     <div className={styles.divRadioOn} >
-                        <span class={styles.spanRaio}>{listCard.length}</span>
+                        <span class={styles.spanRaio}></span>
                     </div>
                 ):(
                     <div className={styles.divRadioOff} >
-                    <span class={styles.spanRaio}>{listCard.length}</span>
-                </div>  
+                        <span class={styles.spanRaio}></span>
+                    </div>  
                 )
             )
         }

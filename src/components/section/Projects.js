@@ -17,6 +17,7 @@ function Projects(){
   const [styleGame, setStyleGame] = useState("");
   const [styleCursos, setStyleCursos] = useState("");
   const [styleGraduacao, setStyleGraduacao] = useState("");
+  const [resetCard, setResetCard] = useState(false);
 
   //icon buttons
   const btnGraducao = <FaUserGraduate size={btnIconSize}/>;
@@ -33,6 +34,7 @@ function Projects(){
     setStyleCursos("");
     setStyleGraduacao("");
     textButtonsCard = "Acesse meu repositório";
+    setResetCard(!resetCard);
     }
   function viewGame (){
     setViewCard("Games");
@@ -41,6 +43,7 @@ function Projects(){
     setStyleCursos("");
     setStyleGraduacao("");
     textButtonsCard = "Acesse meu repositório";
+    setResetCard(!resetCard);
   }
   function viewCursos(){
     setViewCard("Cursos");
@@ -49,6 +52,7 @@ function Projects(){
     setStyleCursos("click");
     setStyleGraduacao("");
     textButtonsCard = "Conheça a Escola";
+    setResetCard(!resetCard);
   }
   function viewGraduacao(){
     setViewCard("Graduação");
@@ -57,6 +61,7 @@ function Projects(){
     setStyleCursos("");
     setStyleGraduacao("click");
     textButtonsCard = "Conheça a Faculdade";
+    setResetCard(!resetCard);
   }
 
   return(
@@ -67,7 +72,7 @@ function Projects(){
         <ButtonBig text="  Cursos" functionClick={viewCursos} style={styleCursos} id="btnCursos" btnIcon={btnCursos}/>
         <ButtonBig text="  Graduação" functionClick={viewGraduacao} style={styleGraduacao} id="btnGraduacao" btnIcon={btnGraducao}/>
       </div>
-        <Works projectsCard = {viewCard} textButtons = {textButtonsCard}/>
+        <Works projectsCard = {viewCard} textButtons = {textButtonsCard} resetCard={resetCard}/>
     </div>  
   )
 }
