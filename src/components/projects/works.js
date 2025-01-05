@@ -16,12 +16,6 @@ function Works( {projectsCard, textButtons, resetCard} ){
     let listCard = []; 
     let listRadioButtons= [];
 
-    function updateCarousel() {
-        // Calcula a transformação com base no índice
-        const offset = -cardOnView * 100; 
-        styles.carrossel.transform = `translateX(${offset}%)`;
-    }
-
     //funções de troca de cartão.
     function esquerda(){
         if((cardOnView+1) >= listCard.length){
@@ -47,7 +41,7 @@ function Works( {projectsCard, textButtons, resetCard} ){
     }, [resetCard]); 
 
     // add lista de cartões no grupo especifico
-    workJson.forEach((classes, index) => {
+    workJson.forEach((classes) => {
         if(classes.class === projectsCard){
             listCard.push(
                 listCard.length === viewCard ? (

@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaPhp, FaJsSquare, FaMountain, FaReact, FaRProject, FaPython, FaFigma} from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaPhp, FaJsSquare, FaMountain, FaReact, FaRProject, FaPython, FaFigma, FaNodeJs} from "react-icons/fa";
 import { SiPowerbi, SiMysql, SiGodotengine, SiTableau } from "react-icons/si";
 // https://react-icons.github.io/react-icons/
 
@@ -15,6 +15,7 @@ import detona from '../../image/Games/detona.PNG'
 import piano from '../../image/Games/PIANO.PNG'
 import cardJKP from '../../image/Games/card.png'
 import memory from '../../image/Games/memory.png'
+import backEnd from '../../image/Cursos/backEnd.png'
 
 //Variaveis de Inico.
 const iconSize = 30;
@@ -32,6 +33,7 @@ const iconPython = <FaPython color='#2684C4' size={iconSize}/>;
 const iconPowerBi = <SiPowerbi color='#E9CA32' size={iconSize}/>;
 const iconGodot = <SiGodotengine color='#2684C4' size={iconSize}/>;
 const iconTableu = <SiTableau color='#E2E7E2' size={iconSize}/>;
+const iconNodeJs = <FaNodeJs color='#57a545' size={iconSize}/>
 
 const db = [
     {
@@ -138,6 +140,14 @@ const db = [
         "site": "https://mrlous.github.io/Card-Game/",
         "class": "Games",
         "image": cardJKP
+    },{ 
+        "title": "Back-end Node.js",
+        "tech": [iconJavaScripit, iconNodeJs],
+        "descripion": "Curso Oferecido pela escola Ada, com 15h, concluido Jan/2025.",
+        "repo": backEnd,
+        "site": "https://ada.tech/",
+        "class": "Cursos",
+        "image": backEnd
     }
     
 ]

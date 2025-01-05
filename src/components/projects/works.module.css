@@ -4,17 +4,26 @@
     justify-content: space-between;
     align-items: center;
     justify-items: center;
+    transform: rotateY(0deg);
+    transition: 0.25s;
 }
 
 .carrosselView{
     display: flex;
+    transform: rotateY(0deg);
+}
+
+.carrosselView::after{
+    transform: rotateY(180deg);
 }
 
 .carrosselNotView{
     display: none;
+    transform: rotateY(0deg);
 }
 
-.works{
+.works{    
+    transform-style: preserve-3d;
     display: grid;
     align-items: center;
 }
