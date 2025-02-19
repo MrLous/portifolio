@@ -47,7 +47,7 @@ const db = [
     },{
         "title": "C.R.U.D",
         "tech": [iconHTML, iconCSS, iconPHP, iconInkscap],
-        "descripion": "Gerenciador de tarefas simples com controle de status e dinamico",
+        "descripion": "Gerenciador de tarefas simples com controle de status e dinâmico",
         "repo": "https://github.com/MrLous/crud-task",
         "site": " ",
         "class": "Projetos",
@@ -61,9 +61,9 @@ const db = [
         "class": "Projetos",
         "image": terminal
     },{ 
-        "title": "Engenharia da Computação",
+        "title": "Engenharia da Computação                                ",
         "tech": "",
-        "descripion": "Formação Oferecida pela escola Univesp, com 4400h, Previsão Ago/2026",
+        "descripion": "Formação Oferecida pela Univesp, com 4400h, Previsão Ago/2026",
         "repo": "https://univesp.br/",
         "site": "https://univesp.br/",
         "class": "Graduação",
@@ -71,15 +71,15 @@ const db = [
     },{ 
         "title": "Bacharelado em Tecnologia da Informação - ênfase em IOT",
         "tech": "",
-        "descripion": "Formação Oferecida pela escola Univesp, com 2600h, concluido Ago/2024",
-        "repo": "https://univesp.br/",
+        "descripion": "Formação Oferecida pela Univesp, com 2600h, concluído Ago/2024",
+        "repo": "Graduação",
         "site": graduacaoIOT,
-        "class": "Graduação",
+        "class": "https://univesp.br/",
         "image": Logounivesp
     },{ 
         "title": "Front-End com React.js",
         "tech": [iconHTML, iconCSS, iconJavaScripit,iconFigma, iconReact],
-        "descripion": "Curso Oferecido pela escola DNC, com 40h, concluido DEZ/2023.",
+        "descripion": "Curso Oferecido pela escola DNC, com 40h, concluído DEZ/2023.        ",
         "repo": "https://ed.escoladnc.com/formacoes-g/?utm_source=adwords&utm_medium=paid&utm_campaign=hr-ga-geral-312-1&utm_content=hr-ga-geral-312-1-1&utm_term=dnc&utm_term=dnc&utm_campaign=%5B312%5D%5BOP%5D%5BHR%5D%5BGeral%5D%5BSearch%5D&utm_source=adwords&utm_medium=ppc&hsa_acc=1620955800&hsa_cam=21542018591&hsa_grp=165520193733&hsa_ad=708070867381&hsa_src=g&hsa_tgt=kwd-13228606&hsa_kw=dnc&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwpbi4BhByEiwAMC8JnaiD7UCZ5hkR3JIZNTEGqbqESuXYBWI0-u-9_vwGGrvjVihKQkzRqhoCSEUQAvD_BwE",
         "site": front,
         "class": "Cursos",
@@ -87,7 +87,7 @@ const db = [
     },{ 
         "title": "Desenvolvedor de Jogos",
         "tech": [iconHTML, iconCSS, iconJavaScripit, iconInkscap,iconGodot],
-        "descripion": "Curso Oferecido pela escola DIO, com 77h, concluido DEZ/2023.",
+        "descripion": "Curso Oferecido pela escola DIO, com 77h, concluído Dez/2023.        ",
         "repo": "https://www.dio.me/",
         "site": devgames,
         "class": "Cursos",
@@ -95,7 +95,7 @@ const db = [
     },{ 
         "title": "Data Analytics",
         "tech": [iconSQL, iconR, iconTableu],
-        "descripion": "Curso Oferecido pela escola Coursera/Google, com 120h, concluido MAR/2023.",
+        "descripion": "Curso Oferecido pela escola Coursera/Google, 120h, concluído Mar/2023.",
         "repo": "https://www.coursera.org/courseraplus/?utm_medium=sem&utm_source=gg&utm_campaign=B2C_LATAM_coursera_FTCOF_courseraplus&campaignid=20844412474&adgroupid=159999536361&device=c&keyword=coursera&matchtype=b&network=g&devicemodel=&adposition=&creativeid=683667892738&hide_mobile_promo&gad_source=1&gclid=CjwKCAjwpbi4BhByEiwAMC8JndRXMNurKZ5rzi6_MuY-QhXaQG6Rpofo18cfEa0Qhuj1f6fWjWGfChoCYm4QAvD_BwE",
         "site": dataAny,
         "class": "Cursos",
@@ -103,7 +103,7 @@ const db = [
     },{ 
         "title": "Data Analytics com Power-Bi",
         "tech": [iconSQL, iconR, iconPython, iconPowerBi],
-        "descripion": "Curso Oferecido pela escola Dio, com 82h, concluido SET/2024.",
+        "descripion": "Curso Oferecido pela escola Dio, 82h, concluído Set/2024.             ",
         "repo": "https://www.dio.me/",
         "site": powerBi,
         "class": "Cursos",
@@ -111,7 +111,7 @@ const db = [
     },{ 
         "title": "Jogo da Memóra",
         "tech": [iconHTML, iconCSS, iconJavaScripit, iconInkscap],
-        "descripion": "Game para Testa sua memoria, tier um print e compartilhe seu melhro tempo",
+        "descripion": "Game para Testa sua memória, tire um print e compartilhe seu melhor tempo.",
         "repo": "https://github.com/MrLous/memory-game",
         "site": "https://memory-card-dio.netlify.app",
         "class": "Games",
@@ -119,7 +119,7 @@ const db = [
     },{ 
         "title": "Piano Digital",
         "tech": [iconHTML, iconCSS, iconJavaScripit],
-        "descripion": "Simulador para praticar em qualquer lugar.",
+        "descripion": "Simulador para praticar em qualquer lugar.                                ",
         "repo": "https://github.com/MrLous/piano-digital",
         "site": "https://mrlous.github.io/piano-digital/",
         "class": "Games",
@@ -127,7 +127,7 @@ const db = [
     },{ 
         "title": "Detona Ralph",
         "tech": [iconHTML, iconCSS, iconJavaScripit, iconInkscap],
-        "descripion": "Game para aliviar do stres do dia a dia.",
+        "descripion": "Game para aliviar do stres do dia-a-dia.                                  ",
         "repo": "https://github.com/MrLous/crud-task",
         "site": "https://sprightly-bienenstitch-4aaaf2.netlify.app",
         "class": "Games",
@@ -135,7 +135,7 @@ const db = [
     },{ 
         "title": "Card Game",
         "tech": [iconHTML, iconCSS, iconJavaScripit, iconInkscap],
-        "descripion": "Game para testar sua mente e coração, mas é só um jokenpo mesmo.",
+        "descripion": "Game para testar sua mente e coração, mas é só um jokenpo mesmo.          ",
         "repo": "https://github.com/MrLous/Card-Game",
         "site": "https://mrlous.github.io/Card-Game/",
         "class": "Games",
@@ -143,7 +143,7 @@ const db = [
     },{ 
         "title": "Back-end Node.js",
         "tech": [iconJavaScripit, iconNodeJs],
-        "descripion": "Curso Oferecido pela escola Ada, com 15h, concluido Jan/2025.",
+        "descripion": "Curso Oferecido pela escola Ada, 15h, concluído Jan/2025.         ",
         "repo": backEnd,
         "site": "https://ada.tech/",
         "class": "Cursos",
