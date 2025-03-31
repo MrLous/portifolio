@@ -72,9 +72,9 @@ const db = [
         "title": "Bacharelado em Tecnologia da Informação",
         "tech": "",
         "descripion": "Formação Oferecida pela Univesp, com 2600h, concluído Ago/2024",
-        "repo": "Graduação",
+        "repo": "https://univesp.br/",
         "site": graduacaoIOT,
-        "class": "https://univesp.br/",
+        "class": "Graduação",
         "image": Logounivesp
     },{ 
         "title": "Front-End com React.js",
